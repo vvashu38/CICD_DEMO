@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_script">
+    <sys_ui_script action="DELETE">
+        <active>true</active>
+        <description/>
+        <global>false</global>
+        <name>x_snc_cicd_demo.newSCript</name>
+        <script><![CDATA[var x_snc_cicd_demo = x_snc_cicd_demo || {};
+
+x_snc_cicd_demo.newSCript = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_snc_cicd_demo.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_snc_cicd_demo.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "newSCript"
+	};
+})();
+]]></script>
+        <script_name>newSCript</script_name>
+        <sys_class_name>sys_ui_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 07:51:36</sys_created_on>
+        <sys_id>edfb2dfce81e49107f44086365abefc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cicd_demo.newSCript</sys_name>
+        <sys_package display_value="CICD DEMO" source="x_snc_cicd_demo">8ed1a974e81e49107f44086365abefc9</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CICD DEMO">8ed1a974e81e49107f44086365abefc9</sys_scope>
+        <sys_update_name>sys_ui_script_edfb2dfce81e49107f44086365abefc5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 07:51:36</sys_updated_on>
+        <ui_type>0</ui_type>
+        <use_scoped_format>true</use_scoped_format>
+    </sys_ui_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CICD DEMO">8ed1a974e81e49107f44086365abefc9</application>
+        <file_path/>
+        <instance_id>851732ed1b0ac190b749cb751a4bcb5c</instance_id>
+        <instance_name>nowlearning-nlinst00037437-dev-001</instance_name>
+        <name>sys_ui_script_edfb2dfce81e49107f44086365abefc5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_script"&gt;&lt;sys_ui_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;description/&gt;&lt;global&gt;false&lt;/global&gt;&lt;name&gt;x_snc_cicd_demo.newSCript&lt;/name&gt;&lt;script&gt;&lt;![CDATA[var x_snc_cicd_demo = x_snc_cicd_demo || {};
+
+x_snc_cicd_demo.newSCript = (function() {
+	"use strict";
+
+/* set your private variables and functions here. For example: 
+	var privateVar = 0; 
+	function private_function() {
+		return ++privateVar;
+	}
+*/
+
+/* Share variables between multiple UI scripts by adding them to your scope object. For example: 
+	x_snc_cicd_demo.sharedVar = 0; 
+
+ Then access them in your scripts the same way. For example: 
+	function get_shared() {
+		return x_snc_cicd_demo.sharedVar;
+	}
+*/
+
+	return {
+
+/* set your public API here. For example:
+		incrementAndReturnPrivateVar: function() {
+			return private_function();
+		},
+*/
+		type:  "newSCript"
+	};
+})();
+]]&gt;&lt;/script&gt;&lt;script_name&gt;newSCript&lt;/script_name&gt;&lt;sys_class_name&gt;sys_ui_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-03-15 07:51:36&lt;/sys_created_on&gt;&lt;sys_id&gt;edfb2dfce81e49107f44086365abefc5&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_snc_cicd_demo.newSCript&lt;/sys_name&gt;&lt;sys_package display_value="CICD DEMO" source="x_snc_cicd_demo"&gt;8ed1a974e81e49107f44086365abefc9&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CICD DEMO"&gt;8ed1a974e81e49107f44086365abefc9&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_script_edfb2dfce81e49107f44086365abefc5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-03-15 07:51:36&lt;/sys_updated_on&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;use_scoped_format&gt;true&lt;/use_scoped_format&gt;&lt;/sys_ui_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-533610426</payload_hash>
+        <record_name>x_snc_cicd_demo.newSCript</record_name>
+        <reverted_from/>
+        <source>cf12a5b4e81e49107f44086365abefe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 07:51:36</sys_created_on>
+        <sys_id>2bfb29fce81e49107f44086365abefb4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17f8c8f9e810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 07:51:36</sys_updated_on>
+        <type>UI Script</type>
+        <update_guid>53fb29fcc11e4910f14c1d4339bedab4</update_guid>
+        <update_guid_history>53fb29fcc11e4910f14c1d4339bedab4:-533610426</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-03-15 07:58:26</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_script">sys_ui_script</sys_db_object>
+        <sys_id>28f4b222de4c49008970689674e81000</sys_id>
+        <sys_metadata>edfb2dfce81e49107f44086365abefc5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_cicd_demo.newSCript</sys_name>
+        <sys_package display_value="CICD DEMO" source="x_snc_cicd_demo">8ed1a974e81e49107f44086365abefc9</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CICD DEMO">8ed1a974e81e49107f44086365abefc9</sys_scope>
+        <sys_scope_delete display_value="">009e487355b44a7c8037427d393e7a90</sys_scope_delete>
+        <sys_update_name>sys_ui_script_edfb2dfce81e49107f44086365abefc5</sys_update_name>
+        <sys_update_version display_value="sys_ui_script_edfb2dfce81e49107f44086365abefc5">2bfb29fce81e49107f44086365abefb4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-03-15 07:58:26</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
